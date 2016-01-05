@@ -54,3 +54,4 @@ read:
 two:
 	call	one
 	filename:	db "/gnome/www/files/gnome.conf"
+;Append null byte \x00 to end of shellcode after converting to hexes
